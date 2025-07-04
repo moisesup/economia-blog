@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004d4d;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.ativo {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.destaques {
+  display: grid;
+  gap: 2rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+}
+
+.resumo {
+  margin-top: 0.5rem;
+}
+
+.oculto {
+  display: none;
+}
+
+button.toggle-resumo {
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  background-color: #006666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.toggle-resumo:hover {
+  background-color: #009999;
+}
+
+#filtro {
+  margin: 1rem 0;
+  padding: 0.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+form input,
+form textarea,
+form button,
+form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #004d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #007777;
+}
+
+main section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
